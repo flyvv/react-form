@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "esnext",
+    "declaration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "suppressExcessPropertyErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": false,
+    "allowJs": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "@@/*": [".dumi/tmp/*"],
+      "react-form": ["react-form/src"],
+      "react-form/*": ["react-form/src/*", "*"]
+    }
+  },
+  "include": [".dumirc.ts", "react-form/src/**/*"]
+}
