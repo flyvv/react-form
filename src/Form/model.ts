@@ -1,13 +1,13 @@
 import invariant from 'invariant';
 import { action, computed, makeObservable, observable, toJS } from 'mobx';
-import { ModelType, FieldType } from './enum';
+import { ModelType, FieldType } from './utils/enum';
 import {
   splitToPath,
   composeValue,
   observableGetIn,
   observableSetIn,
   keyToValueShape,
-} from './common-utils';
+} from './utils/common-utils';
 import {
   XName,
   ResolveXName,

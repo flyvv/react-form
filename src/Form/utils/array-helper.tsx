@@ -1,9 +1,9 @@
 import { action } from 'mobx';
 import invariant from 'invariant';
-import { Form } from './index';
-import { FormModel } from './model';
+import { Form } from '../index';
+import { FormModel } from '../model';
 import { composeValue } from './common-utils';
-import { FormArrayLayoutInput } from './type';
+import { FormArrayLayoutInput } from '../type';
 
 function invariantArrayShapeIsAutoOrArray(arrayModel: FormModel<unknown[]>) {
   invariant(

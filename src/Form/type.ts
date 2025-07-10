@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import { Field, FormModel } from './model';
-import { FieldType, ModelType } from './enum';
+import { FieldType, ModelType } from './utils/enum';
 
 type valueOf<T> = T[keyof T];
 

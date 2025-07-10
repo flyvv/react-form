@@ -3,7 +3,7 @@ export  { useModel } from './context/modelContext';
 export { FormEnvProvider, useFormEnv } from './context/formEnvContext';
 export { FormItem, createFormItem } from './form-item';
 export { FormModel } from './model';
-export { arrayHelpers } from './array-helper';
-export { AsyncValue } from './AsyncValue';
+export { arrayHelpers } from './utils/array-helper';
+export { AsyncValue } from './utils/AsyncValue';
 export { modelUtils } from './model-utils';
 

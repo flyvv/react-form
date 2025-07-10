@@ -2,14 +2,14 @@
 import { observer } from 'mobx-react-lite';
 import React, {  useState } from 'react';
 import {  FormModel } from './model';
-import { composeValue, useHtmlIdPrefix, range } from './common-utils';
+import { composeValue, useHtmlIdPrefix, range } from './utils/common-utils';
 import { FormProps, FormArrayProps, FormArrayLayoutInput } from './type';
 import { FormEnvProvider } from './context/formEnvContext';
 import { ModelProvider } from './context/modelContext';
 import { FormLayout } from './layout';
 import { FormSubmit } from './form-ui/default-button';
 import { useModel } from './context/modelContext';
-import { arrayHelpers } from './array-helper';
+import { arrayHelpers } from './utils/array-helper';
 
 export function Form({
   model: modelProp,

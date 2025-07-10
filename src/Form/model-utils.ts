@@ -1,7 +1,7 @@
 import { action, observable, runInAction, toJS } from 'mobx';
-import { FieldType } from './enum';
+import { FieldType } from './utils/enum';
 import { Field, FormModel } from './model';
-import { observableSetIn } from './common-utils';
+import { observableSetIn } from './utils/common-utils';
 import { FieldValidateTrigger, FormEnvContextType, SubmitOptions } from './type';
 
 export const modelUtils = {

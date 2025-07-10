@@ -4,12 +4,12 @@ import pick from 'lodash/pick';
 import { observer } from 'mobx-react-lite';
 import stringifyObject from 'stringify-object';
 import { reaction, runInAction, toJS } from 'mobx';
-import { FieldType } from './enum';
+import { FieldType } from './utils/enum';
 import { Field, FormModel } from './model';
 import { useModel } from './context/modelContext';
 import { useFormEnv } from './context/formEnvContext';
 import { ALL_COMPONENTS } from './form-ui/default-component';
-import { composeValue, isFalsyOrEmptyArray, asCSSLength } from './common-utils';
+import { composeValue, isFalsyOrEmptyArray, asCSSLength } from './utils/common-utils';
 import {
   FormItemCreationOptions,
   FormItemProps,

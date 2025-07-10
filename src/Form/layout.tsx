@@ -1,7 +1,7 @@
 import cx from 'classnames';
 import styled from 'styled-components';
 import { FormLayoutProps, FormItemGroupProps } from './type';
-import { asCSSLength } from './common-utils';
+import { asCSSLength } from './utils/common-utils';
 import { useFormEnv } from './context/formEnvContext';
 
 const FormLayoutContainer = styled.div`
