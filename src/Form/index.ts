@@ -6,4 +6,4 @@ export { FormModel } from './model';
 export { arrayHelpers } from './utils/array-helper';
 export { AsyncValue } from './utils/AsyncValue';
 export { modelUtils } from './model-utils';
-
+export {AppendButton} from '../form/form-ui/AppendButton'

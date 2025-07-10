@@ -113,8 +113,9 @@ export default observer(() => {
             name="switch"
             required
           />
+                  <ValuePreview  defaultShow={true}  />
         </Form>
-        <ValuePreview model={model} />
+
       </div>
     </div>
   );
