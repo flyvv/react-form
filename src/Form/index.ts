@@ -1,4 +1,4 @@
-export  { Form } from './Form1';
+export  { Form } from './Form';
 export  { useModel } from './context/modelContext';
 export { FormEnvProvider, useFormEnv } from './context/formEnvContext';
 export { FormItem, createFormItem } from './form-item';
